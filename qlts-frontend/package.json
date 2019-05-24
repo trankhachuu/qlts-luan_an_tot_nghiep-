@@ -1,0 +1,46 @@
+{
+  "name": "qlts-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.16.6",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.8.0",
+    "dateformat": "^3.0.3",
+    "jquery": "^3.4.0",
+    "qs": "^6.7.0",
+    "query-string": "^6.5.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-cookies": "^0.1.0",
+    "react-dom": "^16.8.6",
+    "react-dual-listbox": "^1.4.2",
+    "react-event-timeline": "^1.6.3",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.8",
+    "reactstrap": "^7.1.0",
+    "recharts": "^1.6.0",
+    "redux": "^4.0.1",
+    "vertical-timeline-component-for-react": "^1.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "react-to-print": "^2.1.2"
+  }
+}

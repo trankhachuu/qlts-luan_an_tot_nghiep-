@@ -1,0 +1,125 @@
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+}
+
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.logo {
+    height: 32px;
+    margin: 16px;
+}
+
+.left_menu {
+    border-right: none !important;
+}
+
+.left_menu>.ant-menu-item::after {
+    border: none !important;
+}
+
+.span-link {
+    cursor: pointer;
+    color: #0256a5;
+}
+
+.span-link:hover {
+    text-decoration: underline;
+}
+
+.empty_menu .ant-empty-image img {
+    /* width: 100%;
+    height: auto; */
+}
+
+.pg_collapse_moduleadd {
+    transition: all 0.2s ease-in-out;
+    animation-name: aminationcollapse;
+    /* animation-duration: 0.5s; */
+}
+
+.background_default {
+    background-image: url('http://localhost:3000/background.png');
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.custom-scroll::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+
+.custom-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background: rgba(29, 140, 192, 0.507);
+}
+
+/* Handle on hover */
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.lable_tt {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.item-tt-tb {
+    margin-top: 5px;
+    line-height: 35px;
+}
+
+.item_list_custom {
+    cursor: pointer;
+}
+
+.item_list_custom_active {
+    cursor: pointer;
+    background: linear-gradient(141deg, #f4feff 0%, #defffd 51%, #bbefff 75%) !important;
+}
+
+.item_list_custom:hover {
+    background: linear-gradient(141deg, #f4feff 0%, #defffd 51%, #bbefff 75%) !important;
+}
+
+@keyframes aminationcollapse {
+    from {
+        height: 0px;
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}

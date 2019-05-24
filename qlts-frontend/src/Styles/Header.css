@@ -1,0 +1,96 @@
+.menu_header,
+.menu_canhan {
+    height: 100%;
+    border-bottom: none !important;
+}
+
+.left_menu,
+.menu_canhan,
+.menu_header {
+    background: none !important;
+}
+
+.menu_header,
+.header_app,
+.pg_slider {
+    background: linear-gradient(141deg, #f4feff 0%, #defffd 51%, #bbefff 75%) !important;
+}
+
+.header_app {
+    box-shadow: 1px 4px 4px rgba(139, 200, 224, 0.2) !important;
+    z-index: 100;
+}
+
+.menu_header_item {
+    height: 100%;
+    line-height: 64px;
+    box-sizing: border-box;
+}
+
+.menu_header>.ant-menu-item-selected {
+    border-top: solid 2px #1890ff;
+    border-bottom: none !important;
+}
+
+.ant-checkbox-group-item {
+    display: block !important;
+    margin-bottom: 10px !important;
+}
+
+.user_avatar {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    color: blue;
+    margin: 0 auto;
+    background: #fafafa;
+    border-radius: 50%;
+}
+
+.name_username {
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+}
+
+.check_permission {
+    text-align: center;
+}
+
+#button_luu_ma {
+    box-shadow: 1px 1px 8px 2px #00e1ff;
+}
+
+.timeline {
+    margin-top: 0px !important;
+}
+
+body {
+    overflow: hidden;
+}
+
+.thongbao_home::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+
+.thongbao_home::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+/* Handle */
+
+.thongbao_home::-webkit-scrollbar-thumb {
+    background: rgb(219, 219, 219);
+}
+
+/* Handle on hover */
+
+.thongbao_home::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
